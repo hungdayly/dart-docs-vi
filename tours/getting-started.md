@@ -51,3 +51,57 @@ Hiện tại Dart có các từ khóa sau:
 | deferred | hide | set | | |
 | do | if | show | |
 | dynamic | implements | static | |
+
+
+## Chú thích
+
+Dart hỗ trợ chú thích một dòng, chú thích nhiều dòng và chú thích tài liệu.
+
+### Chú thích một dòng
+
+```dart
+void main() {
+  // TODO: refactor into an AbstractLlamaGreetingFactory?
+  print('Welcome to my Llama farm!');
+}
+```
+
+### Chú thích nhiều dòng
+
+```dart
+void main() {
+  /*
+   * This is a lot of work. Consider raising chickens.
+
+  Llama larry = Llama();
+  larry.feed();
+  larry.exercise();
+  larry.clean();
+   */
+}
+```
+
+### Chú thích tài liệU
+
+```dart
+/// A domesticated South American camelid (Lama glama).
+///
+/// Andean cultures have used llamas as meat and pack
+/// animals since pre-Hispanic times.
+class Llama {
+  String name;
+
+  /// Feeds your llama [Food].
+  ///
+  /// The typical llama eats one bale of hay per week.
+  void feed(Food food) {
+    // ...
+  }
+
+  /// Exercises your llama with an [activity] for
+  /// [timeLimit] minutes.
+  void exercise(Activity activity, int timeLimit) {
+    // ...
+  }
+}
+```
