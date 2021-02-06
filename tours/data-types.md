@@ -1,4 +1,4 @@
-# Các kiểu dữ liệU
+# Các kiểu dữ liệu
 
 Dart có sẵn những kiểu dữ liệu sau đây:
 
